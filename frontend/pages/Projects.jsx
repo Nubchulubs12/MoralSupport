@@ -29,6 +29,7 @@ return (
                                                             <button className="w-32 h-12 bg-blue-500 text-white rounded">About Us</button>
                                                             </Link>
                                                           </div>
+
                                                           <br />
                           <h1 className="text-5xl font-bold">Projects</h1>
                           <p className="py-6">
@@ -39,6 +40,12 @@ return (
                         </div>
                       </div>
                     </div>
+<br />
+                   <div class="flex flex-col justify-center items-center h-24">
+
+                     <br />
+                     <a class="btn btn-grey text-xl">Coming Soon</a>
+                   </div>
 
             <br />
 

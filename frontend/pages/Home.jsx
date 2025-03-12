@@ -31,7 +31,7 @@ const navigate = useNavigate();
                                     </Link>
                                   </div>
                                   <br />
-              <h1 className="text-5xl font-bold">Moral Support</h1>
+              <h1 className="text-5xl font-bold">Moral Support Studios</h1>
               <p className="py-6">
                 This site is to show off my skills and the journey im on to build games.
               </p>
