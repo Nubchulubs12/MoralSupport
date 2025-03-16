@@ -8,40 +8,37 @@ function GameDev () {
 
 return (
                            <>
+                            <div className="min-h-screen flex flex-col">
+                                        <div className="flex justify-center space-x-4 bg-blue-500 ">
+                                                                            <Link to="/">
+                                                                                   <button className="w-32 h-12 bg-blue-500 hover:bg-blue-700 text-white rounded">Home</button>
+                                                                                 </Link>
+                                                                                  <a href="https://theschlote.github.io/" target="_blank">
+                                                                           <button className="w-32 h-12 bg-blue-500 hover:bg-blue-700 text-white rounded">Blog</button>
+                                                                              </a>
+                                                                           <Link to="/GameDev">
+                                                                           <button className="w-32 h-12 bg-blue-500 hover:bg-blue-700 text-white rounded">Game Dev</button>
+                                                                           </Link>
+                                                                           <Link to="/Projects">
+                                                                           <button className="w-32 h-12 bg-blue-500 hover:bg-blue-700 text-white rounded">Projects</button>
+                                                                           </Link>
+                                                                           <Link to="/AboutUs">
+                                                                           <button className="w-32 h-12 bg-blue-500 hover:bg-blue-700 text-white rounded">About Us</button>
+                                                                           </Link>
+                                                                         </div>
                            <div className="hero bg-blue-200 min-h-auto">
                              <div className="hero-content text-center">
-
                                <div className="max-w-md">
-                                    <div className="flex justify-center flex space-x-4">
-                                                                           <Link to="/">
-                                                                                  <button className="w-32 h-12 bg-blue-500 text-white rounded">Home</button>
-                                                                                </Link>
-                                                                                 <a href="https://theschlote.github.io/" target="_blank">
-                                                                          <button className="w-32 h-12 bg-blue-500 text-white rounded">Blog</button>
-                                                                             </a>
-                                                                          <Link to="/GameDev">
-                                                                          <button className="w-32 h-12 bg-blue-500 text-white rounded">Game Dev</button>
-                                                                          </Link>
-                                                                          <Link to="/Projects">
-                                                                          <button className="w-32 h-12 bg-blue-500 text-white rounded">Projects</button>
-                                                                          </Link>
-                                                                          <Link to="/AboutUs">
-                                                                          <button className="w-32 h-12 bg-blue-500 text-white rounded">About Us</button>
-                                                                          </Link>
-                                                                        </div>
-                                                                        <br />
+
                                  <h1 className="text-5xl font-bold">Game Development</h1>
                                  <p className="py-6">
                                    This is where you can see what all we are working on.
                                  </p>
-
-
                                </div>
-
                              </div>
 
                            </div>
-                           <div class="navbar bg-base-100 shadow-sm">
+                           <div class="navbar bg-base-100 shadow-sm bg-blue-500">
                              <div class="navbar-start">
                                <div class="dropdown">
                                  <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -64,29 +61,34 @@ return (
 
                              </div>
                              <div class="navbar-center hidden lg:flex">
-                               <ul class="menu menu-horizontal px-1">
-                                 <li className="bg-blue-500 text-white rounded"><a href="https://github.com/TheSchlote/CorruptedVirtues-TacticsRPG" target="_blank">Corrupted Virtues</a></li>
-                                 <li>
-                                   <details>
-                                     <summary class="btn btn bg-blue-500 text-white rounded">Game Jam</summary>
-                                     <ul class="p-2">
-                                       <li><a href="https://moralsupportstudios.itch.io/babymode" target="_blank">Baby Mode</a></li>
-                                       <li><a>Submenu 2</a></li>
-                                     </ul>
-                                   </details>
-                                 </li>
-                                 <li><a class="btn btn bg-blue-500 text-white rounded">Coming Soon</a></li>
-                               </ul>
-                             </div>
-                             <div class="navbar-end">
+                                <ul class="menu menu-horizontal px-1">
 
-                             </div>
+                                  <li class="bg-blue-500 hover:bg-blue-600 text-white rounded">
+                                    <a href="https://github.com/TheSchlote/CorruptedVirtues-TacticsRPG" target="_blank">Corrupted Virtues</a>
+                                  </li>
+
+
+                                  <li class="dropdown relative">
+                                    <button class="bg-blue-500 hover:bg-blue-700 text-white rounded">Game Jam</button>
+                                    <ul class="dropdown-content menu bg-blue-200 rounded shadow-lg absolute mt-2 w-48 z-10">
+                                      <li><a href="https://moralsupportstudios.itch.io/babymode" target="_blank">BabyMode</a></li>
+                                      <li><a>Item 2</a></li>
+                                    </ul>
+                                  </li>
+
+
+                                  <li>
+                                    <a class=" bg-blue-500 hover:bg-blue-700 text-white rounded">Coming Soon</a>
+                                  </li>
+                                </ul>
+                              </div>
+
+                              <div class="navbar-end">
+
+                              </div>
+                            </div>
                            </div>
-
                    <br />
-
-
-
                    <footer class="footer footer-horizontal footer-center bg-blue-200 text-black-content p-10">
                      <aside>
                    <img src={badge} alt="My Badge" width="50" height="50" />    <p class="font-bold">

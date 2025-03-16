@@ -6,27 +6,30 @@ function AboutUs() {
 
      return (
             <>
+             <div className="min-h-screen flex flex-col">
+                         <div className="flex justify-center space-x-4 bg-blue-500 ">
+                                                             <Link to="/">
+                                                                  <button className="w-32 h-12 bg-blue-500 hover:bg-blue-700 text-white rounded">Home</button>
+                                                                                                                                                   </Link>
+                                                                                                                                                    <a href="https://theschlote.github.io/" target="_blank">
+                                                                                                                                             <button className="w-32 h-12 bg-blue-500 hover:bg-blue-700 text-white rounded">Blog</button>
+                                                                                                                                                </a>
+                                                                                                                                             <Link to="/GameDev">
+                                                                                                                                             <button className="w-32 h-12 bg-blue-500 hover:bg-blue-700 text-white rounded">Game Dev</button>
+                                                                                                                                             </Link>
+                                                                                                                                             <Link to="/Projects">
+                                                                                                                                             <button className="w-32 h-12 bg-blue-500 hover:bg-blue-700 text-white rounded">Projects</button>
+                                                                                                                                             </Link>
+                                                                                                                                             <Link to="/AboutUs">
+                                                                                                                                             <button className="w-32 h-12 bg-blue-500 hover:bg-blue-700 text-white rounded">About Us</button>
+                                                            </Link>
+                                                          </div>
+
+
             <div className="hero bg-blue-200 min-h-auto">
               <div className="hero-content text-center">
                 <div className="max-w-md">
-                     <div className="flex justify-center flex space-x-4">
-                                             <Link to="/">
-                                                    <button className="w-32 h-12 bg-blue-500 text-white rounded">Home</button>
-                                                  </Link>
-                                                   <a href="https://theschlote.github.io/" target="_blank">
-                                            <button className="w-32 h-12 bg-blue-500 text-white rounded">Blog</button>
-                                               </a>
-                                            <Link to="/GameDev">
-                                            <button className="w-32 h-12 bg-blue-500 text-white rounded">Game Dev</button>
-                                            </Link>
-                                            <Link to="/Projects">
-                                            <button className="w-32 h-12 bg-blue-500 text-white rounded">Projects</button>
-                                            </Link>
-                                            <Link to="/AboutUs">
-                                            <button className="w-32 h-12 bg-blue-500 text-white rounded">About Us</button>
-                                            </Link>
-                                          </div>
-                                          <br />
+
                   <h1 className="text-5xl font-bold">About Us</h1>
                   <p className="py-6">
                     Welcome to Moral Support Studios where you can learn more about the team here.
@@ -60,6 +63,7 @@ function AboutUs() {
                    <a href="https://github.com/TheSchlote" class="text-blue-500 hover:text-blue-700 underline" target="_blank">GitHub</a><br />
                      <a href="https://x.com/Theschlote" class="text-blue-500 hover:text-blue-700 underline" target="_blank">Twitter</a>
                 </p>
+                </div>
                 </div>
     <br />
 

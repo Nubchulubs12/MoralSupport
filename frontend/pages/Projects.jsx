@@ -9,48 +9,44 @@ function Projects() {
 
 return (
                     <>
+                     <div className="min-h-screen flex flex-col">
+                                 <div className="flex justify-center space-x-4 bg-blue-500 ">
+                                                                     <Link to="/">
+                                                                           <button className="w-32 h-12 bg-blue-500 hover:bg-blue-700 text-white rounded">Home</button>
+                                                                                                                                                            </Link>
+                                                                                                                                                             <a href="https://theschlote.github.io/" target="_blank">
+                                                                                                                                                      <button className="w-32 h-12 bg-blue-500 hover:bg-blue-700 text-white rounded">Blog</button>
+                                                                                                                                                         </a>
+                                                                                                                                                      <Link to="/GameDev">
+                                                                                                                                                      <button className="w-32 h-12 bg-blue-500 hover:bg-blue-700 text-white rounded">Game Dev</button>
+                                                                                                                                                      </Link>
+                                                                                                                                                      <Link to="/Projects">
+                                                                                                                                                      <button className="w-32 h-12 bg-blue-500 hover:bg-blue-700 text-white rounded">Projects</button>
+                                                                                                                                                      </Link>
+                                                                                                                                                      <Link to="/AboutUs">
+                                                                                                                                                      <button className="w-32 h-12 bg-blue-500 hover:bg-blue-700 text-white rounded">About Us</button>
+                                                                    </Link>
+                                                                  </div>
                     <div className="hero bg-blue-200 min-h-auto">
                       <div className="hero-content text-center">
                         <div className="max-w-md">
-                            <div className="flex justify-center flex space-x-4">
-                                                             <Link to="/">
-                                                                    <button className="w-32 h-12 bg-blue-500 text-white rounded">Home</button>
-                                                                  </Link>
-                                                                   <a href="https://theschlote.github.io/" target="_blank">
-                                                            <button className="w-32 h-12 bg-blue-500 text-white rounded">Blog</button>
-                                                               </a>
-                                                            <Link to="/GameDev">
-                                                            <button className="w-32 h-12 bg-blue-500 text-white rounded">Game Dev</button>
-                                                            </Link>
-                                                            <Link to="/Projects">
-                                                            <button className="w-32 h-12 bg-blue-500 text-white rounded">Projects</button>
-                                                            </Link>
-                                                            <Link to="/AboutUs">
-                                                            <button className="w-32 h-12 bg-blue-500 text-white rounded">About Us</button>
-                                                            </Link>
-                                                          </div>
 
-                                                          <br />
                           <h1 className="text-5xl font-bold">Projects</h1>
                           <p className="py-6">
                             Here is where all of our projects are and can see details about them.
                           </p>
-
-
                         </div>
                       </div>
                     </div>
-<br />
+                <br />
                    <div class="flex flex-col justify-center items-center h-24">
 
                      <br />
                      <a class="btn btn-grey text-xl">Coming Soon</a>
                    </div>
+                   </div>
 
             <br />
-
-
-
             <footer class="footer footer-horizontal footer-center bg-blue-200 text-black-content p-10">
               <aside>
             <img src={badge} alt="My Badge" width="50" height="50" />    <p class="font-bold">

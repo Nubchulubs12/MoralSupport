@@ -10,33 +10,33 @@ const navigate = useNavigate();
 
     return (
         <>
+        <div className="min-h-screen flex flex-col">
+             <div className="flex justify-center space-x-4 bg-blue-500 ">
+                                                 <Link to="/">
+                                                      <button className="w-32 h-12 bg-blue-500 hover:bg-blue-700 text-white rounded">Home</button>
+                                                                                                                                       </Link>
+                                                                                                                                        <a href="https://theschlote.github.io/" target="_blank">
+                                                                                                                                 <button className="w-32 h-12 bg-blue-500 hover:bg-blue-700 text-white rounded">Blog</button>
+                                                                                                                                    </a>
+                                                                                                                                 <Link to="/GameDev">
+                                                                                                                                 <button className="w-32 h-12 bg-blue-500 hover:bg-blue-700 text-white rounded">Game Dev</button>
+                                                                                                                                 </Link>
+                                                                                                                                 <Link to="/Projects">
+                                                                                                                                 <button className="w-32 h-12 bg-blue-500 hover:bg-blue-700 text-white rounded">Projects</button>
+                                                                                                                                 </Link>
+                                                                                                                                 <Link to="/AboutUs">
+                                                                                                                                 <button className="w-32 h-12 bg-blue-500 hover:bg-blue-700 text-white rounded">About Us</button>
+                                                </Link>
+                                              </div>
+
         <div className="hero bg-blue-200 min-h-auto">
           <div className="hero-content text-center">
             <div className="max-w-md">
-                 <div className="flex justify-center flex space-x-4">
-                                     <Link to="/">
-                                            <button className="w-32 h-12 bg-blue-500 text-white rounded">Home</button>
-                                          </Link>
-                                           <a href="https://theschlote.github.io/" target="_blank">
-                                    <button className="w-32 h-12 bg-blue-500 text-white rounded">Blog</button>
-                                       </a>
-                                    <Link to="/GameDev">
-                                    <button className="w-32 h-12 bg-blue-500 text-white rounded">Game Dev</button>
-                                    </Link>
-                                    <Link to="/Projects">
-                                    <button className="w-32 h-12 bg-blue-500 text-white rounded">Projects</button>
-                                    </Link>
-                                    <Link to="/AboutUs">
-                                    <button className="w-32 h-12 bg-blue-500 text-white rounded">About Us</button>
-                                    </Link>
-                                  </div>
-                                  <br />
+
               <h1 className="text-5xl font-bold">Moral Support Studios</h1>
               <p className="py-6">
                 This site is to show off my skills and the journey im on to build games.
               </p>
-
-
             </div>
           </div>
         </div>
@@ -79,6 +79,7 @@ href="https://moralsupportstudios.itch.io/babymode"
     </div>
 
   </div>
+</div>
 </div>
 {/* <div className="bg-blue-200 py-16"> */}
 {/*   <div className="max-w-screen-xl mx-auto px-8"> */}
