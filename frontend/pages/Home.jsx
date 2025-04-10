@@ -15,11 +15,9 @@ const navigate = useNavigate();
         <>
         <div className="min-h-screen flex flex-col">
              <NavBar />
-
         <div className="hero bg-blue-200 min-h-auto">
           <div className="hero-content text-center">
             <div className="max-w-md">
-
               <h1 className="text-5xl font-bold">TheSchlote</h1>
               <p className="py-6">
                 This site is to show off my skills and the journey im on to build games.
